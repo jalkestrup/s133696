@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: s133696
+  host: s133696
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-0v
+  - s133696-cloudantNoSQLDB
+  - availability-monitoring-auto
